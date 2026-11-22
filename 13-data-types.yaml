@@ -1,6 +1,6 @@
 - name: ansible data types
   hosts: local
-  connections: local
+  connection: local
   vars:
     DURATION: 120
     COURSE: "DevSecOps with AWS"
