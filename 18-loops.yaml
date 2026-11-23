@@ -12,7 +12,7 @@
     - zip
 
   - name: run nginx
-    ansible.builtin.package:
+    ansible.builtin.service:
       name: nginx
       state: started
       enabled: yes
