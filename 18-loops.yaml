@@ -10,3 +10,9 @@
     - mysql
     - nginx
     - zip
+
+  - name: run nginx
+    ansible.builtin.package:
+      name: nginx
+      state: started
+      enabled: yes
